@@ -504,7 +504,7 @@ function rK(){
   html+='</div>';
   var qualified=evs.filter(function(e){return e.status;}).length;
   html+='<div class="sep"><span style="font-size:11px;color:var(--c-muted);flex:1">'+qualified+'/'+evs.length+' qualifiés</span>'+
-    '<button class="btn-sec" onclick="expCSV()">Exporter Excel (.xlsx)</button></div>';
+    '<button class="btn-main" onclick="expCSV()">Exporter Excel (.xlsx)</button></div>';
   document.getElementById('kc').innerHTML=html;
 }
 
